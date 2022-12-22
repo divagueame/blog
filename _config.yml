@@ -22,8 +22,8 @@ title: Ready & Steady
 email: contact@martin-arce.de 
 description: >- # this means to ignore newlines until "baseurl:"
   Blog from Martin Arce, a cats, dogs and Ruby On Rails lover. In that strict order. I try to document here information and discoveries made in my journey as a web developer.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://divagueame.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: divagueame 
 
