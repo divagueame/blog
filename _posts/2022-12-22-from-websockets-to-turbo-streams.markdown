@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "How to broadcast updates on Ruby on Rails. From ActionCable to TurboStreams"
+title:  "Ruby on Rails Chat App: Chapter 1 - Setting Up Action Cable and Stimulus"
 date:   2022-12-22 14:59:39 +0100
-categories: jekyll update
+categories: ruby ror rails 
 ---
 I've been following this tutorial since the very beginning and I can only but to recommend it to anybody willing to develop his Ruby on Rails skills. The author is very knowledgage and presents every topic in a clear way. Unfortunately, it's in spanish, so most of the international Ruby on Rails community will never have a chance to profit from it.
 
@@ -11,14 +11,16 @@ https://www.youtube.com/watch?v=LObuMyxZOKA&t
 
 
 Let's begin by creating a new Rails 7 application:
-rails new chati -c tailwind -d postgresql
 
+{% highlight ruby %}
+rails new chati -c tailwind -d postgresql
+{% endhighlight %}
 rails g scaffold message title:string
 
 Modify our root path to this:
 root "messages#index#
 Commit: Initial. Postgres + Tailwind + Messages Scaffold
-
+chat
 
 [Commit 1:Initial. Postgres + Tailwind + Messages Scaffold][commit-2]
 
